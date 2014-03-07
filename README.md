@@ -33,4 +33,4 @@ This example should build and run on Windows/Ubuntu
 
 ## KNOWN ISSUE
 Once someone is connected, clearing the peerconnection by disconnecting is throwing an error.
-TO DO: ticket number for others to follow.
+- https://code.google.com/p/webrtc/issues/detail?id=2733
