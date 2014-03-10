@@ -1,4 +1,4 @@
-/* (c) Copyright 2014 Temasys Communication, pvt, ltd.
+/* (c) Copyright 2014 Temasys Communication, Pte Ltd.
   
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

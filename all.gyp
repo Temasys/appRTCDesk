@@ -1,5 +1,5 @@
 # Copyright (c) 2013 The WebRTC project authors. All Rights Reserved.
-# Copyright (c) 2014 Temasys Communication, pvt, ltd.
+# Copyright (c) 2014 Temasys Communication, Pte Ltd.
 #
 # Use of this source code is governed by a BSD-style license
 # that can be found in the LICENSE file in the root of the source

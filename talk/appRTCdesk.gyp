@@ -1,4 +1,4 @@
-# (c) Copyright 2014 Temasys Communication, pvt, ltd.
+# (c) Copyright 2014 Temasys Communication, Pte Ltd.
 {
 	'variables': 
 	{
