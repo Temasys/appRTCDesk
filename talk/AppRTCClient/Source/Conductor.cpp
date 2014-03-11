@@ -283,7 +283,7 @@ void Conductor::OnStateChange(webrtc::PeerConnectionObserver::StateType state_ch
 void Conductor::OnAddStream(webrtc::MediaStreamInterface * stream)
 {
     LOG(INFO) << __FUNCTION__ << "\n\n!!!!!!!!!!!!! Add Stream: " << stream -> label() << "!!!!!!!!!!!!!!!!!\n\n";
-
+	stream -> AddRef();
     webrtc::VideoTrackVector       tracks = stream -> GetVideoTracks();
 
 	// Only render the first track.
