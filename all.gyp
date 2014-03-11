@@ -8,17 +8,19 @@
 # be found in the AUTHORS file in the root of the source tree.
 
 {
-  'includes': ['talk/build/common.gypi'],
+  'variables': {
+    'libjingle_root%': '<(DEPTH)',
+  },
   'targets': [
     {
       'target_name': 'All',
       'type': 'none',
       'dependencies': [
         'webrtc/webrtc.gyp:*',
-        'talk/libjingle.gyp:*',
-        'talk/libjingle_examples.gyp:*',
-        'talk/libjingle_tests.gyp:*',
-        'talk/appRTCdesk.gyp:*',
+        '<(libjingle_root)/talk/libjingle.gyp:*',
+        '<(libjingle_root)/talk/libjingle_examples.gyp:*',
+        '<(libjingle_root)/talk/libjingle_tests.gyp:*',
+        '<(libjingle_root)/talk/appRTCdesk.gyp:*',
       ],
       'conditions': [
         ['OS=="android"', {
