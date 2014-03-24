@@ -11,7 +11,12 @@ The talk/AppRTCClient directory contains the code for the client.
 The code is not production ready, and is provided for experimentation and educational purpose.
 
 ## First Integration (ONLY ONCE)
-TO DO
+To set up the environment you need to issue the following under your webrtc/trunk folder:
+```
+git clone https://github.com/TemasysCommunications/appRTCDesk.git
+```
+This will create the folder appRTCDesk.
+Then modify the file "all.gyp" by adding ```'<(libjingle_root)/appRTCDesk/appRTCdesk.gyp:*',``` to the dependencies part (a all.gyp model is present in the appRTCDesk folder).
 
 ## Building
 in "trunk":
