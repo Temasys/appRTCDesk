@@ -20,7 +20,7 @@
         '<(libjingle_root)/talk/libjingle.gyp:*',
         '<(libjingle_root)/talk/libjingle_examples.gyp:*',
         '<(libjingle_root)/talk/libjingle_tests.gyp:*',
-        '<(libjingle_root)/talk/appRTCdesk.gyp:*',
+        '<(libjingle_root)/appRTCDesk/appRTCdesk.gyp:*',
       ],
       'conditions': [
         ['OS=="android"', {

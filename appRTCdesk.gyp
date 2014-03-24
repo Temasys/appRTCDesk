@@ -90,7 +90,7 @@
 	
 	'includes': 
 	[
-		'build/common.gypi',
+		'../talk/build/common.gypi',
 	],
 
 	'conditions': 
@@ -141,7 +141,7 @@
 	    'dependencies': 
 	    [
 			'<(DEPTH)/third_party/jsoncpp/jsoncpp.gyp:jsoncpp',
-			'libjingle.gyp:libjingle_peerconnection',
+			'<(DEPTH)/talk/libjingle.gyp:libjingle_peerconnection',
 			'debugger_qt_mocs',
 	    ],
 		'copies': 
