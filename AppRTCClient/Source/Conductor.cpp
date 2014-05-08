@@ -499,7 +499,7 @@ bool Conductor::InitializePeerConnection()
 	webrtc::PeerConnectionInterface::IceServer  server;
 	server.uri = std::string(_serverUrl.toLocal8Bit().constData());
 	servers.push_back(server);
-	_peer_connection =  _peer_connection_factory->CreatePeerConnection(servers,NULL,NULL,this);
+	_peer_connection =  _peer_connection_factory->CreatePeerConnection(servers,NULL,NULL,NULL,this);
 
 	if (!_peer_connection.get())
 	{
